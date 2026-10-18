@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "io.github.univ4-rfq/base-zero-slippage-hook",
+  "description": "Zero-Slippage Uniswap v4 Institutional RFQ Hook on Base Mainnet (Chain ID 8453) backed by $3.25B+ Morpho Blue 0% Flash Liquidity and Chainlink Oracles.",
+  "version": "1.0.0",
+  "status": "active",
+  "repository": {
+    "url": "https://repo.sourcify.dev/contracts/full_match/8453/0xd72CD1d46bA05479583fbB561B558f133BA98088/",
+    "source": "sourcify"
+  },
+  "remotes": [
+    {
+      "transport_type": "streamable-http",
+      "url": "https://courage-matches-omaha-commissions.trycloudflare.com/mcp"
+    }
+  ],
+  "metadata": {
+    "chainId": 8453,
+    "network": "base-mainnet",
+    "hookAddress": "0xd72CD1d46bA05479583fbB561B558f133BA98088",
+    "poolManager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "morphoBlueVault": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+    "supportedTokens": ["USDC", "WETH", "cbBTC", "cbETH", "wstETH", "AERO", "EURC"],
+    "contact": "lucascordone@gmail.com"
+  }
+}
