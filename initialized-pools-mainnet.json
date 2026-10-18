@@ -1,0 +1,212 @@
+[
+  {
+    "pair": "USDC/WETH",
+    "poolId": "0x5ed1e61e1b02cdc2db669143b5d8e2448009ba48801122edacba1b8e4fcedbe5",
+    "currency0": "0x4200000000000000000000000000000000000006",
+    "currency1": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "fee": 0,
+    "tickSpacing": 60,
+    "hooks": "0xd72CD1d46bA05479583fbB561B558f133BA98088",
+    "status": "active"
+  },
+  {
+    "pair": "USDC/cbBTC",
+    "poolId": "0xc061b3b938ea9cfdf9b509beec5b98050872b93d0fd21345f3cf747b87e2f5a2",
+    "currency0": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "currency1": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+    "fee": 0,
+    "tickSpacing": 60,
+    "hooks": "0xd72CD1d46bA05479583fbB561B558f133BA98088",
+    "status": "active"
+  },
+  {
+    "pair": "USDC/cbETH",
+    "poolId": "0x5c4c7e1d5c737a9e31f384aa449e74d9f405e6dc42b11e1b46600a3ec1fcd8f4",
+    "currency0": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
+    "currency1": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "fee": 0,
+    "tickSpacing": 60,
+    "hooks": "0xd72CD1d46bA05479583fbB561B558f133BA98088",
+    "status": "active"
+  },
+  {
+    "pair": "USDC/wstETH",
+    "poolId": "0x98aeb55579ea9d429ffbb259534320a6e792e7f15ad1e7b925314303a66893b7",
+    "currency0": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "currency1": "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
+    "fee": 0,
+    "tickSpacing": 60,
+    "hooks": "0xd72CD1d46bA05479583fbB561B558f133BA98088",
+    "status": "active"
+  },
+  {
+    "pair": "USDC/AERO",
+    "poolId": "0x02d3ea57088d0bb9c379cd6825a63f1558f3d3d91f5de69a5f8ee9a7de3bc169",
+    "currency0": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "currency1": "0x940181a94A35A4569E4529A3CDfB74e38FD98631",
+    "fee": 0,
+    "tickSpacing": 60,
+    "hooks": "0xd72CD1d46bA05479583fbB561B558f133BA98088",
+    "status": "active"
+  },
+  {
+    "pair": "USDC/EURC",
+    "poolId": "0x8b667cb54813fad7ffdecf6630b432b82301ed49ff58c39bbf18f3c33725e736",
+    "currency0": "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
+    "currency1": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "fee": 0,
+    "tickSpacing": 60,
+    "hooks": "0xd72CD1d46bA05479583fbB561B558f133BA98088",
+    "status": "active"
+  },
+  {
+    "pair": "WETH/cbBTC",
+    "poolId": "0x508caf2974f446847064d29d7070ae314d3faea441da4e91fd48c2b8675454ef",
+    "currency0": "0x4200000000000000000000000000000000000006",
+    "currency1": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+    "fee": 0,
+    "tickSpacing": 60,
+    "hooks": "0xd72CD1d46bA05479583fbB561B558f133BA98088",
+    "status": "active"
+  },
+  {
+    "pair": "WETH/cbETH",
+    "poolId": "0xce935f164d60bbc2307d2f03c438dca19f911fcbb05b7ae377ae472239adf3c9",
+    "currency0": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
+    "currency1": "0x4200000000000000000000000000000000000006",
+    "fee": 0,
+    "tickSpacing": 60,
+    "hooks": "0xd72CD1d46bA05479583fbB561B558f133BA98088",
+    "status": "active"
+  },
+  {
+    "pair": "WETH/wstETH",
+    "poolId": "0x0cc1cc81bf903ef473b5d7244477ac6822570edac1abf94b653fe1f382acaa6a",
+    "currency0": "0x4200000000000000000000000000000000000006",
+    "currency1": "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
+    "fee": 0,
+    "tickSpacing": 60,
+    "hooks": "0xd72CD1d46bA05479583fbB561B558f133BA98088",
+    "status": "active"
+  },
+  {
+    "pair": "WETH/AERO",
+    "poolId": "0x2d8cc45fdeba6d5642f9ec8421d7b46314914658462f0f236640ce5bafce0dde",
+    "currency0": "0x4200000000000000000000000000000000000006",
+    "currency1": "0x940181a94A35A4569E4529A3CDfB74e38FD98631",
+    "fee": 0,
+    "tickSpacing": 60,
+    "hooks": "0xd72CD1d46bA05479583fbB561B558f133BA98088",
+    "status": "active"
+  },
+  {
+    "pair": "WETH/EURC",
+    "poolId": "0x247b2d356591b225a85ef59561be1543419323c008266a4462752e80edb41ee8",
+    "currency0": "0x4200000000000000000000000000000000000006",
+    "currency1": "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
+    "fee": 0,
+    "tickSpacing": 60,
+    "hooks": "0xd72CD1d46bA05479583fbB561B558f133BA98088",
+    "txHash": "0x5548e5f9d0a0bda69cb6b0989ac34309c1d90039bd09b5047923b4d67d13fce7"
+  },
+  {
+    "pair": "cbBTC/cbETH",
+    "poolId": "0xa517a4f4eb58b12429ce94adc15664aae22ce30320024c641bc3033cdecee249",
+    "currency0": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
+    "currency1": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+    "fee": 0,
+    "tickSpacing": 60,
+    "hooks": "0xd72CD1d46bA05479583fbB561B558f133BA98088",
+    "txHash": "0x8649186aa5a332276584b3aeca9332a1b7e182c2ae15bbe5515e0bf7ff28c194"
+  },
+  {
+    "pair": "cbBTC/wstETH",
+    "poolId": "0x4922603ea95e6e7fd2042b22797bd4f77c998ed0218b05de63f35558202f9f1d",
+    "currency0": "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
+    "currency1": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+    "fee": 0,
+    "tickSpacing": 60,
+    "hooks": "0xd72CD1d46bA05479583fbB561B558f133BA98088",
+    "txHash": "0x145fcfcbfdef816c20c67e1fda21a4f05d30723127bc94f48492f70498b4ad99"
+  },
+  {
+    "pair": "cbBTC/AERO",
+    "poolId": "0x52bce1cac6ba9074f20751fce80fe9cbdfb3bd441e985001a8145edee83decaa",
+    "currency0": "0x940181a94A35A4569E4529A3CDfB74e38FD98631",
+    "currency1": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+    "fee": 0,
+    "tickSpacing": 60,
+    "hooks": "0xd72CD1d46bA05479583fbB561B558f133BA98088",
+    "txHash": "0x6a8511df1aee75e7a3fe5833b7e9c4482fc478dc3d702a703048e313b536b6c9"
+  },
+  {
+    "pair": "cbBTC/EURC",
+    "poolId": "0x3d93a8ddb3ec087efc372239d2845f193ad8eb0cb1181e7197d3a8b22f425449",
+    "currency0": "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
+    "currency1": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+    "fee": 0,
+    "tickSpacing": 60,
+    "hooks": "0xd72CD1d46bA05479583fbB561B558f133BA98088",
+    "status": "active"
+  },
+  {
+    "pair": "cbETH/wstETH",
+    "poolId": "0xf0bf495be6855400f74a5aa11531f6d00315b36290bc555b82434ba765e1af35",
+    "currency0": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
+    "currency1": "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
+    "fee": 0,
+    "tickSpacing": 60,
+    "hooks": "0xd72CD1d46bA05479583fbB561B558f133BA98088",
+    "txHash": "0x13a59c7733f310cdaa2798e6f14d55e5fb12ff3d3193c75e45621230d6fad65f"
+  },
+  {
+    "pair": "cbETH/AERO",
+    "poolId": "0xc80bcaf031560440b3d3d384bd507827fcb737e4da2a6d1c4d1b06eb3263b262",
+    "currency0": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
+    "currency1": "0x940181a94A35A4569E4529A3CDfB74e38FD98631",
+    "fee": 0,
+    "tickSpacing": 60,
+    "hooks": "0xd72CD1d46bA05479583fbB561B558f133BA98088",
+    "txHash": "0xd9da2843fd5274c2162c6a3279c2c5605587b34965bb0c35535bfdf5c02e0c63"
+  },
+  {
+    "pair": "cbETH/EURC",
+    "poolId": "0xc81f5dd87b38e1bb62bee216702256f38a90fdc5cf6a4a4c7a25be6a186efce3",
+    "currency0": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
+    "currency1": "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
+    "fee": 0,
+    "tickSpacing": 60,
+    "hooks": "0xd72CD1d46bA05479583fbB561B558f133BA98088",
+    "txHash": "0xa8f42b3e4314783a556394f19c88737ece21fb7b0284e0052cbd5dd4a0a32dea"
+  },
+  {
+    "pair": "wstETH/AERO",
+    "poolId": "0x1247189e76c1f023de67f9313fa82faf52de044c2c13c23d982e415b48f6bcbd",
+    "currency0": "0x940181a94A35A4569E4529A3CDfB74e38FD98631",
+    "currency1": "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
+    "fee": 0,
+    "tickSpacing": 60,
+    "hooks": "0xd72CD1d46bA05479583fbB561B558f133BA98088",
+    "txHash": "0xb70bf447bd82425a504fda6ddcd1607f4294d7b3d404e340dd08cc783bcb6291"
+  },
+  {
+    "pair": "wstETH/EURC",
+    "poolId": "0xa96951ec5e59d272e1069c341ed56ed3b8fd320f3b155c83ef2cc85c68f75ee5",
+    "currency0": "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
+    "currency1": "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
+    "fee": 0,
+    "tickSpacing": 60,
+    "hooks": "0xd72CD1d46bA05479583fbB561B558f133BA98088",
+    "status": "active"
+  },
+  {
+    "pair": "AERO/EURC",
+    "poolId": "0x4820c7b91164116379e4730ffe8bd9402377738c0ae9c180cd0d98bf697378c1",
+    "currency0": "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
+    "currency1": "0x940181a94A35A4569E4529A3CDfB74e38FD98631",
+    "fee": 0,
+    "tickSpacing": 60,
+    "hooks": "0xd72CD1d46bA05479583fbB561B558f133BA98088",
+    "txHash": "0x359604fdf08590d10a24f20998f50cfb6ea4a0c47b75d96dbba68ca452130c36"
+  }
+]
