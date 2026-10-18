@@ -1,0 +1,28 @@
+# Smithery.ai & MCP Server Configuration for Base Uniswap v4 Zero-Slippage RFQ Hook
+name: base-univ4-rfq-zero-slippage-hook
+displayName: Base Uniswap v4 Zero-Slippage RFQ Hook ($3.25B+ Flash Liquidity)
+description: >-
+  Execute atomic zero-price-impact swaps on Base Mainnet (Chain ID 8453) through
+  Uniswap v4 Hook 0xd72CD1d46bA05479583fbB561B558f133BA98088 backed by Chainlink
+  Oracles (-30 bps fixed spread) and $3.25B+ Morpho Blue 0% fee flash liquidity.
+  Supports USDC, WETH, cbBTC, cbETH, wstETH, AERO, and EURC across 21 initialized
+  Uniswap v4 pools.
+version: 1.0.0
+homepage: https://courage-matches-omaha-commissions.trycloudflare.com/status
+remote:
+  type: http
+  url: https://courage-matches-omaha-commissions.trycloudflare.com/mcp
+  discovery:
+    llmsTxt: https://courage-matches-omaha-commissions.trycloudflare.com/llms.txt
+    agentCard: https://courage-matches-omaha-commissions.trycloudflare.com/.well-known/agent.json
+    x402: https://courage-matches-omaha-commissions.trycloudflare.com/.well-known/x402
+    openApi: https://courage-matches-omaha-commissions.trycloudflare.com/openapi.json
+tools:
+  - name: univ4_rfq_quote_and_build_swap
+    description: Get exact Chainlink Oracle (-30 bps) quote + ECDSA-signed hookData + Uniswap v4 PoolKey & SwapParams in 1 call.
+  - name: univ4_rfq_get_quote
+    description: Get deterministic zero-slippage quote on Base Mainnet (8453).
+  - name: univ4_rfq_get_hookdata
+    description: Get ABI-encoded ECDSA-signed hookData for Uniswap v4 PoolManager.swap().
+  - name: univ4_rfq_list_pools
+    description: List all 21 initialized Uniswap v4 pools and token metadata on Base Mainnet.
